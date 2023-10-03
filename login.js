@@ -9,6 +9,7 @@ class Landing{
 saveData(){
     //store db
     if(this.dataBase){
+        console.log(this.dataBase);
         localStorage.setItem('database',JSON.stringify(this.dataBase))
     }
 }
