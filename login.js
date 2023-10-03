@@ -58,7 +58,7 @@ login(){
             localStorage.setItem("user",user)
             alert('login successful')
             //navigate
-            window.location="index.html"
+            window.location="home.html"
         }
         else{
             alert('Incorrect username or password')
@@ -66,6 +66,8 @@ login(){
     }
     else{
         alert('User doesnot Exist')
+        loguser.value=''
+        logpswd.value=''
     }
 }
 
