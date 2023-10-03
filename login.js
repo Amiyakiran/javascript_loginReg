@@ -58,7 +58,7 @@ login(){
             localStorage.setItem("user",user)
             alert('login successful')
             //navigate
-            window.location="home.html"
+            window.location="https://amiyakiran.github.io/javascript_loginReg/"
         }
         else{
             alert('Incorrect username or password')
