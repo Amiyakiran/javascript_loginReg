@@ -42,7 +42,7 @@ saveData(){
            this.saveData()
            alert('register Successful')
          //navigate to login
-         window.location="index.html"
+         /* window.location="index.html" */
         }
     }
 }
