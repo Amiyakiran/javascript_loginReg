@@ -74,5 +74,5 @@ login(){
 }
 
 const obj=new Landing()
-obj.saveData()
+
 obj.getData()
